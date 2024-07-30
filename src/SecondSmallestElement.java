@@ -4,7 +4,7 @@ public class SecondSmallestElement {
         int count = 0;
         for (int i = 0; i <= x.length - 1; i++) {
             if (smallest > x[i]) {
-                smallest = x[i];
+                smallest = x[i];   
             }
         }
         System.out.println("The smallest element is :" + smallest);
